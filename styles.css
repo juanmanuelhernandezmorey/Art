@@ -38,8 +38,7 @@ h1 {
 }
 
 .grid {
-  /* layout tipo Pinterest */
-  columns: 280px;
+  column-count: 2;      /* 🔴 fuerza 2 columnas */
   column-gap: 1.5rem;
   margin-top: 2.5rem;
 }
