@@ -38,9 +38,9 @@ h1 {
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
+  /* En lugar de display:grid usamos columnas */
+  columns: 280px;           /* ancho base de cada columna */
+  column-gap: 1.5rem;       /* separación entre columnas */
   margin-top: 2.5rem;
 }
 
@@ -51,10 +51,9 @@ figure {
   padding: 1rem;
   border: 1px solid var(--border);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
-  min-height: 520px; /* o el valor que mejor te encaje */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  break-inside: avoid;     /* que la tarjeta no se parta entre columnas */
+  margin-bottom: 1.5rem;   /* espacio vertical entre tarjetas */
+
 
 }
 
