@@ -38,11 +38,12 @@ h1 {
 }
 
 .grid {
-  /* En lugar de display:grid usamos columnas */
-  columns: 280px;           /* ancho base de cada columna */
-  column-gap: 1.5rem;       /* separación entre columnas */
+  /* layout tipo Pinterest */
+  columns: 280px;
+  column-gap: 1.5rem;
   margin-top: 2.5rem;
 }
+
 
 figure {
   margin: 0;
