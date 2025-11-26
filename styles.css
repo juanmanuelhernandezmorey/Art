@@ -51,6 +51,11 @@ figure {
   padding: 1rem;
   border: 1px solid var(--border);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+  min-height: 520px; /* o el valor que mejor te encaje */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 
 img {
